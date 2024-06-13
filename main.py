@@ -13,7 +13,7 @@ for i in range(int(user_input)):
     GROUP_IDS.append(input_link)
 
 # Текст для отправки
-text_to_send = "Привет, это тестовое сообщение!\nбарои боти pixel"
+text_to_send = input('тексти реклама мекардагита навис')
 # Инициализация клиента
 app = Client("my_account", api_id=api_id, api_hash=api_hash)
 
